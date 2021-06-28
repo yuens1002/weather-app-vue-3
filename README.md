@@ -1,7 +1,5 @@
 # Weather App Built with VueJS 3
 
----
-
 Fetches current weather of a city. Includes loading and error handling.
 
 - Vue3 composition API
