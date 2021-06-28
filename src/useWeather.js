@@ -5,7 +5,7 @@ export default function useWeather(city) {
   const error = ref(false);
   const loading = ref(false);
   const weather = reactive({ temp: '', summary: '', imgSrc: '' });
-  const apiKey = process.env.VUE_APP_DS_KEY;
+  const apiKey = process.env.VUE_APP_OC_API_KEY;
   const url = 'https://api.openweathermap.org/data/2.5/weather';
   async function getWeather() {
     try {
