@@ -79,9 +79,16 @@ export default {
   padding: 12px;
 }
 .input {
+  margin-top: 24px;
   padding: 12px;
 }
+
+h1 {
+  font-size: 2.4rem;
+  line-height: 0.8;
+}
 .subtitle {
-  font-size: 16px;
+  font-size: 1rem;
+  padding-bottom: 40px;
 }
 </style>
