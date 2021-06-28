@@ -1,5 +1,12 @@
 <template>
-  <h1>Current Weather</h1>
+  <h1>
+    Current Weather<br /><span class="subtitle"
+      >powered by
+      <a href="https://home.openweathermap.org/" target="_blank"
+        ><i>openweathermap.org</i></a
+      ></span
+    >
+  </h1>
   <form @submit.prevent="submitCity">
     <label for="weather" class="hidden-visually">weather</label>
     <input
@@ -73,5 +80,8 @@ export default {
 }
 .input {
   padding: 12px;
+}
+.subtitle {
+  font-size: 16px;
 }
 </style>
